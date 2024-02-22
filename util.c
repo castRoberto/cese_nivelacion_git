@@ -1,18 +1,18 @@
+#include <stdint.h>
 
-
-unsigned char suma (unsigned char a, unsigned char b) {
+uint8_t suma (uint8_t a, uint8_t b) {
 	
 	return a + b;
 
 }
 
-unsigned char multiplicacion (unsigned char a, unsigned char b) {
+uint8_t multiplicacion (uint8_t a, uint8_t b) {
 	
 	return a * b;
 	
 }
 
-int resta (int a, int b) {
+uint8_t resta (uint8_t a, uint8_t b) {
 	
 	return a - b;
 	

@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-unsigned char suma (unsigned char a, unsigned char b);
+uint8_t suma (uint8_t a, uint8_t b);
 
-unsigned char multiplicacion (unsigned char a, unsigned char b);
+uint8_t multiplicacion (uint8_t a, uint8_t b);
 
 int main (int argc, char* argv[]) {
 
-	unsigned char a, b, resultado;
+	uint8_t a, b, resultado;
 	
 	a = b = 3;
 	
