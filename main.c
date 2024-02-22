@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int suma (int a, int b);
+uint8_t suma (uint8_t a, uint8_t b);
 
-int multiplicacion (int a, int b);
+uint8_t multiplicacion (uint8_t a, uint8_t b);
 
 int main (int argc, char* argv[]) {
 
-	int a, b, resultado;
+	uint8_t a, b, resultado;
 	
 	a = b = 3;
 	
