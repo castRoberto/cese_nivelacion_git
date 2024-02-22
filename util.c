@@ -1,12 +1,12 @@
 
 
-int suma (int a, int b) {
+unsigned char suma (unsigned char a, unsigned char b) {
 	
 	return a + b;
 
 }
 
-int multiplicacion (int a, int b) {
+unsigned char multiplicacion (unsigned char a, unsigned char b) {
 	
 	return a * b;
 	
